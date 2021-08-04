@@ -112,7 +112,7 @@
    "no_copy": 1,
    "oldfieldname": "status",
    "oldfieldtype": "Select",
-   "options": "Open\nReplied\nHold\nClosed",
+   "options": "Open\nUnder Review\nNeed Information\nTO DO\nIn Development\nCode Review\nPre Prod Deployment\nReady for QA\nIn QA\nQA Pass\nProduction Deployed\nVerification on Production\nCustomer Review\nDone\nReplied\nHold\nClosed",
    "search_index": 1
   },
   {
@@ -364,7 +364,7 @@
  ],
  "icon": "fa fa-ticket",
  "idx": 7,
- "modified": "2021-01-04 00:01:25.923738",
+ "modified": "2021-08-03 21:26:11.080855",
  "modified_by": "Administrator",
  "module": "Support",
  "name": "Issue",
