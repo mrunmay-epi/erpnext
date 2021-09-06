@@ -205,8 +205,7 @@
   },
   {
    "fieldname": "cb_reference",
-   "fieldtype": "Column Break",
-   "label": "Pick List Item-cb_reference"
+   "fieldtype": "Column Break"
   },
   {
    "fetch_from": "sales_order.customer",
