@@ -10,13 +10,13 @@
 	{%- endif %}
 {% endblock %}
 
-
 {% block header %}
 <h1>{{ _('Products') }}</h1>
 {% endblock header %}
 
 {% block style %}
 <link rel="stylesheet" href="/assets/erpnext/css/products.css">
+<link rel="stylesheet" href="/assets/bloomstack_core/css/products.css">
 {% endblock %}
 
 {% block page_content %}
@@ -48,10 +48,10 @@
 	<div class="col-12 order-2 col-md-8 order-md-1 products-list row no-gutters">
 		{% if products %}
 			{% for item in products %}
-				{% include "erpnext/www/all-products/item_row.html" %}
+				{% include "bloomstack_core/www/all-products/item_row.html" %}
 			{% endfor %}
 		{% else %}
-			{% include "erpnext/www/all-products/not_found.html" %}
+			{% include "bloomstack_core/www/all-products/not_found.html" %}
 		{% endif %}
 	</div>
 	<div class="col-12 order-1 col-md-4 order-md-2">
