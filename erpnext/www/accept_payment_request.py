@@ -1,8 +1,6 @@
 from __future__ import unicode_literals
-import re
 import frappe
 from erpnext.shopping_cart.doctype.shopping_cart_settings.shopping_cart_settings import get_shopping_cart_settings
-from erpnext import get_default_company
 from frappe import _
 
 def get_context(context):
