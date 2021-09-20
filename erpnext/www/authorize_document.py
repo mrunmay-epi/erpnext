@@ -1,7 +1,5 @@
 from __future__ import unicode_literals
 
-import re
-
 import frappe
 from erpnext import get_default_company
 
